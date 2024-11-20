@@ -1,0 +1,18 @@
+Início
+    Função imprimir_arvore(tamanho)
+        Para i de 1 até tamanho faça
+            espaços ← tamanho - i
+            simbolos ← i
+            Imprimir (espaços * " ") + (simbolos * "#")
+        FimPara
+    FimFunção
+
+    Escreva "Digite o tamanho da árvore (um número inteiro):"
+    Leia tamanho
+
+    Se tamanho > 0 Então
+        Chamar imprimir_arvore(tamanho)
+    Senão
+        Escreva "Por favor, insira um número inteiro positivo."
+    FimSe
+Fim
